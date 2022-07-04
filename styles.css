@@ -113,8 +113,6 @@ left: 50%;
 }
 
 body{position: relative;
-    height: 100vh;
-    max-width: 100%;
     display: block;
     }
 
@@ -123,7 +121,7 @@ body{position: relative;
     }
     .nav-link:hover {
     transition: .4s;
-    background-color: rgba(200, 244, 3, 0.973) ;
+    background-color: #301934;
     }
 
     @media (max-width: 575.98px) {.about{
@@ -132,8 +130,31 @@ body{position: relative;
 
   
     form{
-        border: 2px solid yellow;
-        width: 300px;
+        
         margin-top: 5%;
          height: 400px;
     }
+    .msg{
+        width: 40%;
+        left: 0;
+        right: 0;
+        margin: auto; }
+
+        .footer-socials{
+            font-size:20px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0 3rem 0;
+        }
+        .fppter-socials li{
+            margin: 0 10px;
+        }
+        .footer-socials a{
+            text-decoration: none;
+            color: white;
+            
+            padding: 5px;
+            border-radius: 70%;
+        }
