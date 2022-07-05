@@ -121,14 +121,16 @@ body{position: relative;
     }
     .nav-link:hover {
     transition: .4s;
-    background-color: #301934;
+    color: #301934;
     }
-
     @media (max-width: 575.98px) {.about{
         max-height: 300vh;
     } }
+.imgg{
+    border-radius: 250px;
+    box-shadow: 10px 6px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  
     form{
         
         margin-top: 5%;
